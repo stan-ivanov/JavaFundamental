@@ -8,18 +8,10 @@ public class Calculations {
         int numberTwo = Integer.parseInt(scanner.nextLine());
 
         switch (type) {
-            case "add":
-                add(numberOne, numberTwo);
-                break;
-            case "multiply":
-                multiply(numberOne, numberTwo);
-                break;
-            case "subtract":
-                subtract(numberOne, numberTwo);
-                break;
-            case "divide":
-                divide(numberOne, numberTwo);
-                break;
+            case "add" -> add(numberOne, numberTwo);
+            case "multiply" -> multiply(numberOne, numberTwo);
+            case "subtract" -> subtract(numberOne, numberTwo);
+            case "divide" -> divide(numberOne, numberTwo);
         }
     }
 
